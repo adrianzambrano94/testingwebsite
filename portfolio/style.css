@@ -1,0 +1,26 @@
+/* Global view Desktop view*/
+h1 {
+    color: limegreen;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px) {
+    h1 {
+        color: darkorange;
+
+    }
+}
+
+
+
+/* Mobile view */
+@media (max-width: 500px) {
+    h1 {
+        color: lightblue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
